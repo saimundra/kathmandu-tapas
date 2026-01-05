@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-family-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+  --font-family-serif: 'Crimson Text', ui-serif, Georgia, serif;
+  
+  /* Colors */
+  --color-primary: #D4761A;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #6B7280;
+  --color-secondary-foreground: #FFFFFF;
+  --color-accent: #2563EB;
+  --color-accent-foreground: #FFFFFF;
+  --color-background: #FAFAF9;
+  --color-foreground: #1F2937;
+  --color-card: #F5F5F4;
+  --color-card-foreground: #1F2937;
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #1F2937;
+  --color-muted: #F5F5F4;
+  --color-muted-foreground: #6B7280;
+  --color-border: #E5E7EB;
+  --color-input: #E5E7EB;
+  --color-ring: #D4761A;
+  --color-success: #059669;
+  --color-success-foreground: #FFFFFF;
+  --color-warning: #D97706;
+  --color-warning-foreground: #FFFFFF;
+  --color-error: #DC2626;
+  --color-error-foreground: #FFFFFF;
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #FFFFFF;
+  
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-family-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-serif);
+}
